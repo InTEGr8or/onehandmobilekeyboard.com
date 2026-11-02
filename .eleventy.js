@@ -6,6 +6,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.png");
   eleventyConfig.addPassthroughCopy("handex.mp4");
   eleventyConfig.addPassthroughCopy("handex-poster.jpg");
+  eleventyConfig.addPassthroughCopy("list.js");
   return {
     dir: { input: ".", output: "_site", includes: "_includes" },
     htmlTemplateEngine: "njk",

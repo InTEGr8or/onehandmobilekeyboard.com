@@ -14,8 +14,15 @@ It is a proof of concept. On the inventor’s own tests, with cheap 6 mm buttons
 <p>There is no checkout on this page. The list is for people who want a note when a prototype is ready to try, or who want to talk about an early unit. Write to <a href="mailto:mark@onehandmobilekeyboard.com?subject=Handex%20list">mark@onehandmobilekeyboard.com</a>. Press and other mail can use <a href="mailto:marketing@onehandmobilekeyboard.com">marketing@onehandmobilekeyboard.com</a>.</p>
 </div>
 
+<form id="list-form" class="list-form" novalidate>
+<label for="list-email">Email address</label>
+<input id="list-email" name="email" type="text" inputmode="email" autocomplete="email" spellcheck="false" required placeholder="you@example.com">
+<button type="submit">Get on the list</button>
+<p id="list-status" role="status"></p>
+</form>
+<script src="/list.js"></script>
+
 <div class="actions">
-<a class="primary" href="mailto:mark@onehandmobilekeyboard.com?subject=Handex%20pre-order%20list">Get on the list</a>
 <a href="#demo">Watch the one-minute video</a>
 <a href="https://handex.io">handex.io</a>
 </div>

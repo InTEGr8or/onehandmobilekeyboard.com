@@ -38,7 +38,27 @@ h2 { font-size: 1.25rem; font-weight: 500; margin-top: 2rem; }
   border: 1px solid var(--accent);
   padding: 0.55rem 0.9rem;
 }
-.actions a.primary { background: var(--accent); color: #fffdf8; }
+.actions a.primary, .list-form button {
+  background: var(--accent);
+  color: #fffdf8;
+  border: 1px solid var(--accent);
+  font: inherit;
+  padding: 0.55rem 0.9rem;
+  cursor: pointer;
+}
+.list-form { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; margin: 0 0 0.75rem; }
+.list-form label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.list-form input {
+  font: inherit;
+  min-width: 16rem;
+  flex: 1 1 16rem;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+}
+.list-form input[aria-invalid="true"] { border-color: var(--accent); }
+#list-status { flex-basis: 100%; margin: 0; color: var(--muted); font-size: 0.9rem; }
 footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
 ul { padding-left: 1.2rem; }
 video { width: 100%; height: auto; background: #1c1915; margin: 1rem 0 0.4rem; }

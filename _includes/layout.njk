@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <a class="mark" href="/">Handex</a>
+  <nav>
+    <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>List</a>
+    <a href="/field-notes/" {% if page.url == "/field-notes/" %}aria-current="page"{% endif %}>Field notes</a>
+    <a href="/labs/" {% if page.url == "/labs/" %}aria-current="page"{% endif %}>Labs</a>
+    <a href="/xr/" {% if page.url == "/xr/" %}aria-current="page"{% endif %}>XR research</a>
+  </nav>
+</header>
+<main>
+{{ content | safe }}
+</main>
+<footer>
+  <p>Handex · <a href="mailto:mark@onehandmobilekeyboard.com">mark@onehandmobilekeyboard.com</a> · <a href="https://youtu.be/5ZH2bxmlrhk">Video</a> · <a href="https://handex.io">handex.io</a></p>
+  <p>HandTerm, at handterm.com, is the tutorial for this keyboard. Mail for this domain stays on Microsoft 365.</p>
+</footer>
+</body>
+</html>

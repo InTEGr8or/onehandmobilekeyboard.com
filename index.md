@@ -8,11 +8,9 @@ description: "Handex is a one-handed mobile keyboard. The keys follow the finger
 
 Handex forms the keys to the finger actions. A finger does not move to another seat for the next character, and you do not look down at the hand to find it.
 
-It is a proof of concept. On the inventor’s own tests, with cheap 6 mm buttons and a rough chassis, standard sentences and punctuation come out at about 20 words per minute. That is one person’s number, not a lab study. The product is not in its final form.
+<img class="hand-wrap" src="/hand-wrap.png" alt="Line drawing of a hand wrapped around the Handex, with flexion at the finger joints.">
 
-<div class="note">
-<p>There is no checkout on this page. The list is for people who want a note when a prototype is ready to try, or who want to talk about an early unit. Write to <a href="mailto:mark@onehandmobilekeyboard.com?subject=Handex%20list">mark@onehandmobilekeyboard.com</a>. Press and other mail can use <a href="mailto:marketing@onehandmobilekeyboard.com">marketing@onehandmobilekeyboard.com</a>.</p>
-</div>
+It is a proof of concept. On the inventor’s own tests, with cheap 6 mm buttons and a rough chassis, standard sentences and punctuation come out at about 20 words per minute. That is one person’s number, not a lab study. The product is not in its final form.
 
 <form id="list-form" class="list-form" novalidate>
 <label for="list-email">Email address</label>
@@ -22,10 +20,7 @@ It is a proof of concept. On the inventor’s own tests, with cheap 6 mm buttons
 </form>
 <script src="/list.js"></script>
 
-<div class="actions">
-<a href="#demo">Watch the one-minute video</a>
-<a href="https://handex.io">handex.io</a>
-</div>
+<p><a href="https://handex.io">handex.io</a></p>
 
 <h2 id="demo">The prototype, in one minute</h2>
 

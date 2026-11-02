@@ -61,5 +61,6 @@ h2 { font-size: 1.25rem; font-weight: 500; margin-top: 2rem; }
 #list-status { flex-basis: 100%; margin: 0; color: var(--muted); font-size: 0.9rem; }
 footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
 ul { padding-left: 1.2rem; }
+.hand-wrap { display: block; width: min(18rem, 70%); height: auto; margin: 0.5rem 0 1.25rem; }
 video { width: 100%; height: auto; background: #1c1915; margin: 1rem 0 0.4rem; }
 .video-note { color: var(--muted); font-size: 0.85rem; }

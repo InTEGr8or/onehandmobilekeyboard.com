@@ -16,9 +16,16 @@ It is a proof of concept. On the inventor’s own tests, with cheap 6 mm buttons
 
 <div class="actions">
 <a class="primary" href="mailto:mark@onehandmobilekeyboard.com?subject=Handex%20pre-order%20list">Get on the list</a>
-<a href="https://youtu.be/5ZH2bxmlrhk">Watch the one-minute video</a>
+<a href="#demo">Watch the one-minute video</a>
 <a href="https://handex.io">handex.io</a>
 </div>
+
+<h2 id="demo">The prototype, in one minute</h2>
+
+<video controls playsinline preload="metadata" poster="/handex-poster.jpg">
+  <source src="/handex.mp4" type="video/mp4">
+</video>
+<p class="video-note">One minute with the prototype. About 20 words per minute on the inventor’s own sentences, not a lab study.</p>
 
 ## Who this page is for
 

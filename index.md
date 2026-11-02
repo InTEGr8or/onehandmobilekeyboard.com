@@ -8,7 +8,7 @@ description: "Handex is a one-handed mobile keyboard. The keys follow the finger
 
 Handex forms the keys to the finger actions. A finger does not move to another seat for the next character, and you do not look down at the hand to find it.
 
-<img class="hand-wrap" src="/hand-wrap.png" alt="Line drawing of a hand wrapped around the Handex, with flexion at the finger joints.">
+<img class="hand-wrap" src="/hand-wrap.png" alt="Figure 1. Index Flexion. A hand wrapped around the Handex, labeled DIP, PIP, and MP flexion.">
 
 It is a proof of concept. On the inventor’s own tests, with cheap 6 mm buttons and a rough chassis, standard sentences and punctuation come out at about 20 words per minute. That is one person’s number, not a lab study. The product is not in its final form.
 
